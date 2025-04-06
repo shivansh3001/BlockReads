@@ -1,0 +1,123 @@
+/* LandingPage.css */
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #0c0f1a;
+    color: #ffffff;
+  }
+  
+  .landing-container {
+    height: 100vh;
+    background: linear-gradient(145deg, #0c0f1a 0%, #1c1f2a 100%);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .overlay {
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .landing-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .brand {
+    font-size: 2.5rem;
+    color: #66e0ff;
+    font-weight: bold;
+    text-shadow: 0 0 10px #66e0ff88;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #66e0ff;
+  }
+  
+  .landing-main {
+    text-align: center;
+    margin-top: 60px;
+  }
+  
+  .tagline {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #ffffff;
+    text-shadow: 0 0 5px #66e0ff88;
+  }
+  
+  .description {
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    color: #dddddd;
+  }
+  
+  .cta-buttons {
+    margin-top: 30px;
+  }
+  
+  .cta-btn {
+    padding: 12px 25px;
+    margin: 10px;
+    border-radius: 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background 0.3s ease, color 0.3s ease;
+  }
+  
+  .primary {
+    background-color: #66e0ff;
+    color: #000;
+  }
+  
+  .primary:hover {
+    background-color: #33c7e6;
+  }
+  
+  .secondary {
+    background-color: transparent;
+    border: 2px solid #66e0ff;
+    color: #66e0ff;
+  }
+  
+  .secondary:hover {
+    background-color: #66e0ff;
+    color: #000;
+  }
+  
+  .landing-footer {
+    text-align: center;
+    padding: 20px 0;
+    color: #888;
+    font-size: 0.9rem;
+  }
+  

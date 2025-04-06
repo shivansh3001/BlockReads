@@ -1,0 +1,104 @@
+/* Animated gradient background */
+.upload-bg {
+    min-height: 100vh;
+    background: linear-gradient(-45deg, #0f2027, #203a43, #2c5364, #1f4037);
+    background-size: 400% 400%;
+    animation: gradientFlow 15s ease infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+  }
+  
+  /* Glassmorphism style form */
+  .upload-form-glass {
+    background: rgba(255, 255, 255, 0.07);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.3);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 2.5rem;
+    width: 100%;
+    max-width: 600px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    color: #fff;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .upload-form-title {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 28px;
+    color: #e3e3e3;
+  }
+  
+  /* Inputs and textarea */
+  .upload-input,
+  .upload-textarea,
+  .upload-file-input {
+    width: 95%;
+    padding: 0.75rem 1rem;
+    margin-bottom: 1.2rem;
+    border: none;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    font-size: 16px;
+    transition: background 0.3s ease;
+  }
+  
+  .upload-input::placeholder,
+  .upload-textarea::placeholder {
+    color: #ccc;
+  }
+  
+  .upload-input:focus,
+  .upload-textarea:focus {
+    outline: none;
+    background: rgba(255, 255, 255, 0.2);
+  }
+  
+  /* Textarea specifics */
+  .upload-textarea {
+    resize: vertical;
+    min-height: 120px;
+  }
+  
+  /* Upload button */
+  .upload-button {
+    width: 100%;
+    padding: 0.9rem;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background: linear-gradient(to right, #667eea, #764ba2);
+    border: none;
+    border-radius: 14px;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+  }
+  
+  .upload-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(118, 75, 162, 0.4);
+  }
+  
+  /* Error text */
+  .upload-form-error {
+    text-align: center;
+    color: #ff6b6b;
+    margin-bottom: 1rem;
+  }
+  
+  /* Gradient animation keyframes */
+  @keyframes gradientFlow {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  

@@ -1,0 +1,87 @@
+:root {
+    --primary: #5b21b6; /* Violet (used in buttons or highlights) */
+    --primary-hover: #4c1d95;
+    --success: #059669; /* Green for Buy */
+    --success-hover: #047857;
+    --text-dark: #1f2937;
+    --text-muted: #6b7280;
+    --bg-card: #f9fafb;
+    --border-color: #e5e7eb;
+    --shadow: rgba(0, 0, 0, 0.05);
+  }
+  
+  .research-card {
+    border: 1px solid var(--border-color);
+    border-radius: 16px;
+    padding: 20px;
+    margin: 14px;
+    background-color: var(--bg-card);
+    box-shadow: 0 6px 12px var(--shadow);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .research-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 20px var(--shadow);
+  }
+  
+  .research-card-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--text-dark);
+    margin-bottom: 10px;
+  }
+  
+  .research-card-intro {
+    font-size: 1rem;
+    color: var(--text-muted);
+    margin-bottom: 12px;
+    line-height: 1.5;
+  }
+  
+  .research-card-price {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--text-dark);
+    margin-bottom: 10px;
+  }
+  
+  .research-card-owner {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    margin-bottom: 14px;
+  }
+  
+  .research-card-buttons {
+    display: flex;
+    gap: 12px;
+  }
+  
+  .research-card-button {
+    padding: 10px 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 0.95rem;
+    transition: background-color 0.25s ease;
+  }
+  
+  .research-card-button.rent {
+    background-color: var(--primary);
+    color: white;
+  }
+  
+  .research-card-button.rent:hover {
+    background-color: var(--primary-hover);
+  }
+  
+  .research-card-button.buy {
+    background-color: var(--success);
+    color: white;
+  }
+  
+  .research-card-button.buy:hover {
+    background-color: var(--success-hover);
+  }
+  
