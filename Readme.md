@@ -11,6 +11,12 @@ This project implements a decentralized application (DApp) that allows users to 
 - **Blockchain Integration**: Uses Ethereum blockchain to manage transactions.
 - **IPFS for Storage**: Research papers are stored on IPFS, ensuring decentralized storage.
 - **Pinata Cloud Integration**: Utilizes Pinata for secure and time-limited access to IPFS content.
+  
+## Contract Details
+
+- **Contract Address**: 0x6471EACC40D24bC9F4BAB843560eDFEa190730c5.
+- **Deployed on**: EduChain Testnet.
+- **Block Explorer Url**: [View on Explorer](https://edu-chain-testnet.blockscout.com/address/0x6471EACC40D24bC9F4BAB843560eDFEa190730c5)
 
 ## How to Use
 
