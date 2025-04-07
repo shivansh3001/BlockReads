@@ -16,6 +16,7 @@ This project implements a decentralized application (DApp) that allows users to 
 
 - **Contract Address**: 0x6471EACC40D24bC9F4BAB843560eDFEa190730c5.
 - **Deployed on**: EduChain Testnet.
+- **Coin Used**: EDU.
 - **Block Explorer Url**: [View on Explorer](https://edu-chain-testnet.blockscout.com/address/0x6471EACC40D24bC9F4BAB843560eDFEa190730c5)
 
 ## How to Use
@@ -41,3 +42,12 @@ This project implements a decentralized application (DApp) that allows users to 
 - **IPFS**: For decentralized file storage.
 - **PinataSDK**: To manage IPFS content access securely.
 - **Express.js**: For backend server operations.
+
+## Screenshot
+![WhatsApp Image 2025-04-06 at 11 31 03](https://github.com/user-attachments/assets/9285d16b-d44c-4791-8813-cbd337e98c3b)
+![WhatsApp Image 2025-04-06 at 11 31 05](https://github.com/user-attachments/assets/19083a2a-7e36-4aca-bfdf-440926856fab)
+![WhatsApp Image 2025-04-06 at 11 31 04(1)](https://github.com/user-attachments/assets/3a2de899-d707-4479-93e4-88f9c6b62751)
+![WhatsApp Image 2025-04-06 at 11 31 04](https://github.com/user-attachments/assets/d4a35fdb-78f3-4f17-aa64-c86abe00edd3)
+
+
+  
